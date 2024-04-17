@@ -22,7 +22,7 @@ export default function RootLayout({
         <div className="sticky top-0 z-50  w-full  backdrop-blur-md">
         <Navbar/>
         </div>
-        <main className="relative overflow-hidden ">
+        <main className="relative overflow-hidden bg-gray-100">
         {children}
         </main>
         <Footer />
